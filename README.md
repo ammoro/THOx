@@ -34,6 +34,10 @@ where "c" and "v" are the fragment constituents (denoted, for convenience, core 
 ### PAULI namelist: 
           
 ###  JPSET namelist: bastype, mlst, gamma, bosc, nho, nsp, exmin, exmax, bas2, JTOT, PARITY, lmax, 
+     - bastype: type of functions for the basis among:
+           0=HO
+           1=THO
+           7=cTHO (added by Lay, to be tested)
        
 ### SCATWF namelist: ifcont, emin, emax, nk, inc, jset       
 
