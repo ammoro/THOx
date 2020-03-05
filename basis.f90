@@ -278,7 +278,7 @@ c      -----------------------------------------------------
 c      -----------------------------------------------------
 
 
-        if (abs(egs)<1e-6) then
+        if (gamma<1e-6) then
 !          write(*,*)'Im here'
          gamma=bosc*(8*mu12*abs(egs)/hc/hc)**(1d0/4d0)       !8???
          write(*,*)'( gamma=0 => will use Amos formula )'
